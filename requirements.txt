@@ -1,26 +1,12 @@
-# --- Azure Machine Learning SDK v2 (Moderne) ---
-# Nécessaire pour communiquer avec Azure depuis Python 3.14+
-azure-ai-ml>=1.24.0
-azure-identity>=1.16.0
-
-# --- MLOps & Tracking ---
-# MLflow est le standard actuel sur Azure (remplace les logs propriétaires)
-mlflow>=2.14.0
-azureml-mlflow>=1.56.0
-
-# --- Data Science Core ---
-# Utilisation de "greater than" (>=) pour garantir la compatibilité des wheels avec Python 3.14
-numpy>=2.0.0
-pandas>=2.2.2
-scikit-learn>=1.5.0
-matplotlib>=3.9.0
-
-# --- Utilitaires Notebook & Env ---
-ipykernel
-python-dotenv
-tqdm
-opencensus-ext-azure==1.1.9
-opencensus-ext-requests==0.12.1
+fastapi
+uvicorn
+scikit-learn==1.2.2
+pandas
+joblib
+pytest
+httpx
+opencensus-ext-azure
+opencensus-ext-requests
 scipy
-
+matplotlib
 seaborn
