@@ -44,7 +44,7 @@ app.add_middleware(
 # -------------------------------------------------
 # On cherche le modèle à plusieurs endroits pour être robuste
 possible_paths = ["model/churn_model.pkl", "churn_model.pkl", "model/churn_model.pkl"]
-MODEL_PATH = next((p for p in possible_paths if os.path.exists(p)), "model/churn_model.pkl")
+MODEL_PATH = next((p for p in possible_paths if os.path.exists(p)), "model/bank_churn_rf.pkl")
 model = None
 
 @app.on_event("startup")
