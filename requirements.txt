@@ -22,5 +22,5 @@ tqdm
 opencensus-ext-azure==1.1.9
 opencensus-ext-requests==0.12.1
 scipy
-matplotlib
+
 seaborn
